@@ -1,0 +1,17 @@
+{
+  "name": "lesson_template",
+  "version": "1.0.0",
+  "description": "This is just a skeleton template for TypeScript lessons",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "npx tsc app.ts"
+  },
+  "author": "Yaroslav Ovdii",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^5.2.2"
+  }
+}
